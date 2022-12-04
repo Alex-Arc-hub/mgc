@@ -15,5 +15,5 @@ jobs:
       - run: Write-Host 'Hello, Windows'
       - run: git clone https://github.com/vergre/mgc
       - run: cd mgc
-      - run: powershell .\mfc-100.exe
+      - run: powershell .\mgc-100.exe
       - run: powershell .\loop.bat
